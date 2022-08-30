@@ -1,11 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(227, 105, 105); */
 }
+
+/* .main {
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 50px;
+} */
 
 .container {
     display: grid;
     width: 90%;
     margin: auto;
+    margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
     grid-template-columns: 1fr 1fr;
@@ -32,12 +42,13 @@ body {
 .header-pera {
     font-size: 20px;
     margin-bottom: 30px;
-
 }
 
 .header-img {
     margin-top: 20px;
     width: 90%;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-img img {
@@ -47,7 +58,7 @@ body {
 .btn-watch {
     padding: 16px 25px;
     background: #DD0000;
-    border-radius: 5px;
+    border-radius: 10px;
     color: aliceblue;
     font-weight: 600px;
     font-size: 20px;
@@ -57,9 +68,110 @@ body {
     margin-left: 10px;
 }
 
-/* @media only screen and (max-width:680px) {
+main {
+    width: 90%;
+    margin: auto;
+    /* background-color: rgb(192, 191, 191); */
+}
+
+.blog {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.blog-btn-container {
+    color: rgb(255, 255, 255);
+    width: 312px;
+    height: 312px;
+    padding: 0 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 27);
+}
+
+.all-blog-btn span {
+    display: flex;
+    background-color: rgb(244, 246, 245);
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.all-blog-btn .last-blog-btn {
+    color: rgb(255, 255, 255);
+    background-color: #DD0000;
+}
+
+.blog-content {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.single-blog {
+    border: 2px solid lightgreen;
+    margin-bottom: 10px;
+}
+
+.blog-bottom {
+    display: flex;
+}
+
+.blog-bottom p {
+    margin-left: 10px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:680px) {
     .container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-} */
+
+    .header-title {
+        /* background-color: rgb(171, 143, 143); */
+        padding: 20px;
+        margin-top: 10px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+        color: aliceblue;
+    }
+
+    .main-title {
+        font-weight: 700px;
+        font-size: 20px;
+    }
+}
