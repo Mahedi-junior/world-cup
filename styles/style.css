@@ -1,9 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: auto;
-    /* background-color: rgb(227, 105, 105); */
 }
 
+/******************** Header *****************/
 .container {
     display: grid;
     width: 90%;
@@ -16,7 +16,6 @@ body {
 }
 
 .header-title {
-    /* background-color: rgb(171, 143, 143); */
     padding: 30px;
     margin-top: 30px;
     margin-left: 30px;
@@ -67,23 +66,12 @@ body {
     margin-left: 10px;
 }
 
+/**************** Main Section ***************/
 .main-container {
     width: 90%;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.btn-view {
-    display: none;
-    width: 200px;
-    text-align: center;
-    padding: 16px 2px;
-    background: #DD0000;
-    border-radius: 10px;
-    color: aliceblue;
-    font-weight: 600px;
-    font-size: 20px;
 }
 
 .blog {
@@ -183,6 +171,19 @@ body {
 
 .blog-bottom span {
     margin-right: 10px;
+    font-size: 20px;
+}
+
+.btn-view {
+    display: none;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 16px 2px;
+    background: #DD0000;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 600px;
     font-size: 20px;
 }
 
@@ -410,6 +411,4 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
-
 }
